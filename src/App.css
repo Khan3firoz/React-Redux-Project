@@ -7,6 +7,50 @@
   pointer-events: none;
 }
 
+/**/
+
+.btn-wrapper button {
+  background-color: red;
+  border: 1ps solid greenyellow;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+}
+
+.cart-wrapper {
+  margin-left: 25px;
+  height: 200px;
+  width: 500px;
+  border: 1px solid greenyellow;
+}
+
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+.text-wrapper {
+  margin-top: 90px;
+}
+
+.btn-wrapper {
+  margin-top: 98px;
+}
+
+.add-to-cart img {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  height: 10%;
+  width: 5%;
+}
+
+/**/
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
